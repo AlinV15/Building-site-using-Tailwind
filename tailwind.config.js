@@ -2,12 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {
-      colors:{
-        customColor: '#8a5050',
-      }
+    extend: {},
+    fontFamily:{
+      'home': ['Verdana'],
     },
   },
   plugins: [],
 }
-
